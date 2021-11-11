@@ -1,6 +1,11 @@
-### 作业要求
+# HW3_README
 
-- 熟悉processing中提供的绘图函数；
-- 分析理解彼埃·蒙德里安的作品风格和构图规则，创作类似彼埃·蒙德里安风格的作品，利用processing中提供的绘图函数进行创作实现。
+运行环境：processing 
 
-✏️简单描述你的创意内容，将程序运行结果附在这里。
+用processing临摹了一张蒙德里安的作品
+
+![image](https://github.com/Meiqi-Zhao/518141910035-ZhaoMeiqi/blob/main/Mondrian.png)
+
+在ps内将画作转换为灰度，提取不同色块的rgb值、左上角坐标值和长宽值 
+
+在processing内将背景大小设置为原作的长宽值，背景颜色设置为黑色，分别画出不同矩形并填色。
